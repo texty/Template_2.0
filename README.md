@@ -3,18 +3,18 @@
 
 To run Sass check instructions here: http://sass-lang.com/install 
 
-<h4>Components</h4>
+<h5>Components:</h5>
 <li>Header</li>
 <li>Footer</li>
 <li>Table</li>
 
-<h4>Reusable mixins:</h4>
+<h5>Reusable mixins:</h5>
 <li>Text style</li>
 <li>Highlited text </li>
 <li>Button</li>
 <li>Filter</li>
 
-<h4>Variables:</h4>
+<h5>Variables:</h5>
 <li>Colors</li>
 <li>Fonts</li>
 <li>Media queries</li>
