@@ -1,0 +1,46 @@
+/* Loading animation styles */
+.project {  
+  display: none; /* we hide main container which wraps the project in order to display the animation */
+}
+
+.word {
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  color: #ccc;
+  font-size: 2.5em;
+  height: 2.5em;
+  display: block;
+  margin-top:20%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 330px;
+  @media #{$brk-narrow} {
+    margin-top:60%;
+  }
+   @media #{$brk-spnarrow} {
+    font-size: 1.5em;
+    margin-top:70%;
+    width:200px;
+  }
+  & span{
+    display: inline-block;
+    transition: transform 100ms;
+  }
+}
+
+
+.word .done {
+  color: #3A3F4A;
+}
+
+.overlay {
+  background-size: 1000px 2px;
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -100000;
+}
+
