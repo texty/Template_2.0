@@ -3,7 +3,7 @@
   display: none; /* we hide main container which wraps the project in order to display the animation */
 }
 
-.word {
+.loader {
   font-family: Open Sans, sans-serif;
   font-weight: bold;
   color: #ccc;
@@ -29,7 +29,7 @@
 }
 
 
-.word .done {
+.loader .done {
   color: #3A3F4A;
 }
 
